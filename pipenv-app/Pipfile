@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = ">=2.8.0"
+
+[packages]
+ldap3 = "*"
+gssapi = "*"
+
+[requires]
+python_version = "*"
